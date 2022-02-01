@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+.noMeme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.noMeme>a,a{
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-family: 'Merriweather';
+    padding: 0.5em 1.25em;
+    color: #fff;
+    border: 2px solid #d2691e;
+    transition: background 300ms ease;
+}
+.noMeme>a:hover,.noMeme>a:focus-visible{
+    background: #d2691e;
+}
+
+h2{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+.myMemes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.mymemeimages{
+    width: 22rem;
+    aspect-ratio: 1;
+}
+.loadingText{
+    font-size: 2rem;
+    text-align: center;
+    color: #e7e7e7;
+}
+.signIn{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
